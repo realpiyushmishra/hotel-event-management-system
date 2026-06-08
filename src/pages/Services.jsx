@@ -101,7 +101,7 @@ const Services = () => {
       } else {
         alert("Failed to submit reservation. Please check your details.");
       }
-    } catch (err) {
+    } catch (error) {
       alert("Network error. Is the Django server running?");
     } finally {
       setIsSubmitting(false);
